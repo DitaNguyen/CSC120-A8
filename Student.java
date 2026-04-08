@@ -23,11 +23,11 @@ public class Student {
     }
 
     public static void main(String[] args) {
-        Student ab = new Student("Ab", "9909abc", 2014);
-        System.out.println(ab);
+        Student dita = new Student("Dita", "9909abc", 2029);
+        System.out.println(dita);
         Course csc120 = new Course("OOP", "CSC120", "TR 10:50");
-        ab.classes.add(csc120);
-        System.out.println(ab.classes);
+        dita.classes.add(csc120);
+        System.out.println(dita.classes);
     }
     
 }
